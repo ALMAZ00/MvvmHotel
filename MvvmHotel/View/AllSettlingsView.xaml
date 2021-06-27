@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="MvvmHotel.View.AllSettlingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MvvmHotel.View" 
+             xmlns:viewmodel="clr-namespace:MvvmHotel.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:AllSettlingsViewModel}"
+             mc:Ignorable="d">
+    
+    <StackPanel>
+        <Label Height="30" Content="Все заселения:"></Label>
+        <TextBox Height="30" Name="filter"></TextBox>
+        <Button Height="30" Command="{Binding FilterList}" CommandParameter="{Binding Text, ElementName=filter}">Отфильтровать</Button>
+        <ScrollViewer Height="250" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <DataGrid x:Name="allSettlingDg" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto" AutoGenerateColumns="False"
+                  CanUserAddRows="False" CanUserReorderColumns="False" CanUserDeleteRows="False"
+                      ItemsSource="{Binding AllSettlings}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ФИО Клиента" Binding="{Binding ClientNameAndSurname, Mode=OneWay}" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Номер комнаты" Binding="{Binding RoomNumber, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Дата заселения" Binding="{Binding EntryDate, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Дата выселеняи" Binding="{Binding ReleaseDate, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Удалить" 
+                                        Command="{Binding DataContext.DeleteSettling, ElementName=allSettlingDg}"
+                                        CommandParameter="{Binding SelectedItem, ElementName=allSettlingDg}"></Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button IsEnabled="{Binding IsOpenSettling}" Content="Закрыть заселение"
+                                        Command="{Binding DataContext.ReleaseSettling, ElementName=allSettlingDg}"
+                                        CommandParameter="{Binding SelectedItem, ElementName=allSettlingDg}"></Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+
+        <Button Height="30" Content="Создать заселение" Command="{Binding CreateSettling}"></Button>
+    </StackPanel>
+</UserControl>

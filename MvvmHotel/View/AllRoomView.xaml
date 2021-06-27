@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="MvvmHotel.View.AllRoomView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MvvmHotel.View" 
+             xmlns:viewmodel="clr-namespace:MvvmHotel.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:AllRoomsViewModel}"
+             mc:Ignorable="d" >
+    <StackPanel>
+        <Label Height="30" Content="Все номера:"></Label>
+        <ScrollViewer Height="250" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <DataGrid  x:Name="allRoomsDg" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto" AutoGenerateColumns="False"
+                  CanUserAddRows="False" CanUserReorderColumns="False" CanUserDeleteRows="False"
+                       ItemsSource="{Binding AllRooms}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер" Binding="{Binding Number, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Вместимость" Binding="{Binding Capacity, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Комфортность" Binding="{Binding Comfort, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Цена" Binding="{Binding Price, Mode=OneWay}"></DataGridTextColumn>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Показать" Command="{Binding DataContext.ShowRoom, ElementName=allRoomsDg}"
+                                        CommandParameter="{Binding SelectedItem, ElementName=allRoomsDg}"></Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+
+        <Button Height="30" Content="Создать номер" Command="{Binding ShowRoom}"></Button>
+        </StackPanel>
+</UserControl>

@@ -1,0 +1,15 @@
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.AssemblyInfoInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.AssemblyInfo.cs
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\MvvmHotelInterfaces.deps.json
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\MvvmHotelInterfaces.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\ref\MvvmHotelInterfaces.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\MvvmHotelInterfaces.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\bin\Debug\net5.0\MvvmHotelModels.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.csprojAssemblyReference.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.csproj.CopyComplete
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\ref\MvvmHotelInterfaces.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelInterfaces\obj\Debug\net5.0\MvvmHotelInterfaces.pdb

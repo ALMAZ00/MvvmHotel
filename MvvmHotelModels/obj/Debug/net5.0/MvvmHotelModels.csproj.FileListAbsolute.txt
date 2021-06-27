@@ -1,0 +1,11 @@
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\bin\Debug\net5.0\MvvmHotelModels.deps.json
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\bin\Debug\net5.0\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\bin\Debug\net5.0\ref\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\bin\Debug\net5.0\MvvmHotelModels.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.AssemblyInfoInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.AssemblyInfo.cs
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.csproj.CoreCompileInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\ref\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelModels\obj\Debug\net5.0\MvvmHotelModels.pdb

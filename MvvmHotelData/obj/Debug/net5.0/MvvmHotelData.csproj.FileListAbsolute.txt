@@ -1,0 +1,17 @@
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.AssemblyInfoInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.AssemblyInfo.cs
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.csproj.CoreCompileInputs.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.csprojAssemblyReference.cache
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelData.deps.json
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelData.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\ref\MvvmHotelData.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelData.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelInterfaces.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelModels.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelInterfaces.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\bin\Debug\net5.0\MvvmHotelModels.pdb
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.csproj.CopyComplete
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\ref\MvvmHotelData.dll
+C:\Users\Игорь Алмазов\OneDrive\Документы\Visual Studio 2019\УНИВЕР\6 семестр\Курсовая_ТП\MvvmHotelData\obj\Debug\net5.0\MvvmHotelData.pdb

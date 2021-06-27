@@ -1,0 +1,35 @@
+﻿<Window x:Class="MvvmHotel.View.ClientView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MvvmHotel.ViewModel"
+        mc:Ignorable="d"
+        Title="ClientView" Height="450" Width="800">
+
+    <Window.DataContext>
+        <local:ClientViewModel/>
+    </Window.DataContext>
+
+    <StackPanel x:Name="panel">
+        <Label Content="Name"></Label>
+        <TextBox Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <Label Content="Surname"></Label>
+        <TextBox Text="{Binding Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+
+        <Label Content="PassportData"></Label>
+        <TextBox IsReadOnly="{Binding IsBlockPassportData, Mode=OneWay}" 
+                 Text="{Binding PassportData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <Label Content="PhoneNumber"></Label>
+        <TextBox Text="{Binding PhoneNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <Button IsEnabled="{Binding IsValid}" Content="Сохранить" 
+                Command="{Binding SaveClient}"></Button>
+
+        <Button IsEnabled="{Binding IsOldClient}" Content="Удалить" 
+                Command="{Binding DeleteClient}"></Button>
+    </StackPanel>
+</Window>
